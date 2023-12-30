@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#home{
+    background-image: linear-gradient(rgb(168, 164, 164), rgb(181, 108, 24));
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em;
+}
+
+#home > h1 {
+    font-size: 55px;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+#home > p
+{
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+#home > ol > h4{
+    font-size: 35px;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+#home > ol > li{
+    font-size: 18px;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+#details{
+  background-color: rgb(181, 108, 24);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+}
+
+summary {
+    background-color: #fff;
+    width: 100%;
+    margin: 6px;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(72, 72, 71);
+    cursor: pointer;
+}
+
+details {
+    background-color: #fff;
+    width: 100%;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+
+details > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 5em;
+}
+details > ul > li{
+    margin-bottom: 15px;
+}
+
+details > h4 {
+    text-align: justify;
+    padding: 1em 5em;
+    font-size: 20px;
+}
+
+details > div {
+    text-align:justify ;
+    padding:0em 6em;
+    margin-bottom: 10px;
+}
+details > div > h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+details > div > div {
+    text-align:justify ;
+    margin: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: orange;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+footer > ul > li{
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+footer > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
